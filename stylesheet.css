@@ -1,0 +1,63 @@
+body {
+font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+}
+
+
+video{
+  position: fixed;
+  right: 0;
+ bottom: 0;
+ min-width: 100%;
+ min-height: 100%;
+ width: auto;
+ height: auto;
+ z-index: -100;
+ background-size: cover;
+}
+
+header p {
+ text-align:center;
+ top:0;
+ font-size: 70px;
+ font-weight:bolder;
+ color: white;
+ text-shadow:3px 2px 0 black;
+ z-index:0;
+ margin-right:50px;
+
+}
+
+.logo img{
+  height: 100px;
+  z-index: 1;
+}
+
+.menu {
+    z-index: 10;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    width: 20%;
+    text-align: left;
+    z-index: 20;
+
+}
+ul {
+    list-style: none;
+    margin: 0 auto;
+    z-index: 20
+
+
+}
+    ul li {
+        display: inline-block;
+        padding: 0px 10px 5px 5px;
+    }
+h2{
+      text-align: center;
+      margin-top:300px;
+      font-size:25px;
+      color: white;
+      text-shadow:3px 2px 0 black;
+       opacity: 0.8;
+    }
